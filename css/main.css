@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+
+/*#btn1 {
+grid-column-start: 1;
+grid-column-end: 1;
+grid-row-start: 1;
+grid-row-end: 1;
+}
+#btn2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    }
+    #btn3 {
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        }
+        #btn4 {
+            grid-column-start: 4;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 2;
+            }*/
+
+#btn1, #btn2, #btn3, #btn4, #btn5, #btn6, #btn7, #btn8, #btn9, #btn10, #btn11, #btn12, #btn13, #btn14, #btn15, #btn16, #btn17, #btn18, #btn19, #btn20, #btn21, #btn22, #btn23, #btn24, #btn25, #btn26, #btn27{ 
+    width: 100px;
+    height: 100px;
+    font-size: 1.10em;
+    font-weight: bold;
+    font-family: 'Comfortaa', sans-serif;
+    color: blue;
+    margin-left: 5px;
+    margin-right: 5px;
+flex-wrap: wrap row;
+flex-direction: row;
+flex: 1 1 60px;
+
+}
+#btn1:hover, #btn2:hover, #btn3:hover, #btn4:hover, #btn5:hover, #btn6:hover, #btn7:hover, #btn8:hover, #btn9:hover{
+    opacity: .5;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: rgb(237, 231, 225);
+   
+ 
+}
+
+h1{
+    font-weight: bold;
+    color:blue;
+    align-items: center;
+    height: 100px;
+    font-family: 'Comfortaa', sans-serif;
+
+}
+
+.flexitems{
+    display: flex; 
+    flex-flow: row wrap;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 650px;
+ 
+}
+#randomButton{
+    margin-top: 390px;
+    margin-left: 150px;
+    height: 100px;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+
+/*#btn1 {
+    flex: 0 0 5%;
+}
+#btn2{
+    flex: 0 0 5%; 
+}
+#btn3{
+    flex: 0 0 5%;
+}
+#btn4{
+    flex: 0 0 5%;
+}
+#btn5{
+    flex: 0 0 5%;
+}
+#btn6{
+    flex: 0 0 5%;
+}
+#btn7{
+    flex: 0 0 5%;
+}
+#btn8{
+    flex: 0 0 5%;
+}
+#btn9{
+    flex: 0 0 5%;
+}
+*/
+
